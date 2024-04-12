@@ -1,6 +1,6 @@
 body {
     background-color: blue;
-    background-image:url(/making-with-images/colourchick2.PNG');
+    background-image:url('colourchick2.PNG')
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
