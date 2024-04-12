@@ -5,25 +5,26 @@
 
 
 div.background.a  {
-    background-color: blue;
+    background-color: rgb(42, 42, 130);
 }
 div.background.b  {   
-    background-color: black;
+   background-color: rgb(42, 42, 130);
 }
 div.background.c  {
-    background-color: red;
+    background-color: rgb(204, 56, 56);
 }
 div.background.x {
-    background-color:rgb(0, 255, 0); 
+    background-color: rgb(42, 42, 130);
+}
 }
 div.background.y {
-    background-color: yellow;
+    background-color: rgb(204, 56, 56);
 }
 
 
 
 div.header {
-    color: black;
+    color: white;
     font-size: 200%;
     display: flex;
     flex-wrap: wrap;
@@ -64,6 +65,7 @@ div.subheader   {
     font-weight: 600;
     font-style: normal;
     letter-spacing: 2.75px;
+    color: white;
 }
 
 div.scroll-container {
@@ -91,6 +93,7 @@ div.date {
     font-style: italic; 
     font-size: 140%;
     background-color: invert(100%);
+    color: white;
 }
 
 div.date.x {    
@@ -114,81 +117,76 @@ div.date.c {
 
 div.col {
     display: flex;
-    text-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 div.coop {
-    display: flex;
-    flex-wrap: wrap;
-    rotate: 90deg;
-    width: 22%;
+    width: 44%;
     text-align: justify;
     text-align-last: justify;
-   font-size: 200%;
+   font-size: 200px;
    font-family: 'weirdfont';
 }
 
 div.coop.a {
-    opacity: 0;
+    opacity: 0%;
 }
 div.coop.b {
-    opacity: 100;
+    opacity: 100%;
 }
 div.coop.x {
     color: white;
 }
 div.coop.y {
-    color: black;
+    color:  rgb(42, 42, 130);
 }
 div.coop.z {
-    color: white;
+    color: rgb(204, 56, 56);;
 }
 
+
 div.hatch {
-    display: flex;
-    flex-wrap: wrap;
-    rotate: 90deg;
-    width: 22%;
+    
+    width: 44%;
     text-align: justify;
     text-align-last: justify;
-    font-size: 200%;
+    font-size: 200px;
     font-family: 'weirdfont'
 }
 
 div.hatch.a {
-    opacity: 0;
+    opacity: 0%;
 }
 div.hatch.b {
-    opacity: 100;
+    opacity: 100%;
 }
 
 div.hatch.x {
     color: white;
 }
 div.hatch.y {
-    color: black ;
+    color:  rgb(42, 42, 130);
 }
 div.hatch.z {
-    color: white;
+    color: rgb(204, 56, 56);;
 }
+
 div.fowl {
-    display: flex;
-    flex-wrap: wrap;
-    rotate: 90deg;
-    width: 22%;
+    
+    width: 44%;
     text-align: justify;
     text-align-last: justify;
-    font-size: 200%;
+    font-size: 200px;
     font-family: 'weirdfont';
     letter-spacing: 3;
 }
 
 div.fowl.a {
-    opacity: 0;
+    opacity: 0%;
     }
 
 div.fowl.b {
-    opacity: 100;
+    opacity: 100%;
 }
 
 div.fowl.x {
@@ -196,34 +194,42 @@ div.fowl.x {
 }
 
 div.fowl.x {
-    color: black;
+    color: white;
 }
 div.fowl.z {
     color: white;
 }
+div.fowl.x {
+    color: white;
+}
+div.fowl.y {
+    color:  rgb(42, 42, 130);
+}
+div.fowl.z {
+    color: rgb(204, 56, 56);;
+}
+
 
 div.scroll-container2 {
     border-radius: 5px;
     overflow: hidden;
-    width: 1200px;
+    width: 44%;
+    height: 600px;
     margin: 0rem 0rem;
 
   }
 
 div.log {
-    display: flex;
-    flex-wrap: wrap;
-    width: 22%;
+    width: 100%;
     text-align: justify;
     text-align-last: justify;
-    font-size: 97%;
-    margin-top: -600;
-    margin-left: 940;
+    font-size: 150%;
     font-family: "basic-sans", sans-serif;
     font-weight: 20;
     font-style: normal; 
     letter-spacing: -0.5;
     word-spacing: -1.5;
+    color: white;
     
 }
 
@@ -252,6 +258,7 @@ div.ip {
     font-family: "basic-sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
   }
 div.IP2 {
     margin-left: 10px;
@@ -260,4 +267,5 @@ div.IP2 {
     font-family: "basic-sans", sans-serif;
     font-weight: 40;
     font-style: italic; 
+    color: white;
   }
