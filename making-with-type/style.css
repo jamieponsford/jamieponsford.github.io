@@ -1,6 +1,6 @@
 @font-face {
     font-family:'weirdfont';
-    src:url('weirdfont.woff');
+    src:url('ChickenScratch.woff');
 }
 
 
@@ -124,7 +124,7 @@ div.coop {
     width: 44%;
     text-align: justify;
     text-align-last: justify;
-   font-size: 200px;
+   font-size: 150px;
    font-family: 'weirdfont';
 }
 
@@ -150,7 +150,7 @@ div.hatch {
     width: 44%;
     text-align: justify;
     text-align-last: justify;
-    font-size: 200px;
+    font-size: 150px;
     font-family: 'weirdfont'
 }
 
@@ -176,7 +176,7 @@ div.fowl {
     width: 44%;
     text-align: justify;
     text-align-last: justify;
-    font-size: 200px;
+    font-size: 150px;
     font-family: 'weirdfont';
     letter-spacing: 3;
 }
