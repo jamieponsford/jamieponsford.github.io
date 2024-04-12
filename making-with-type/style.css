@@ -111,6 +111,12 @@ div.date.b {
 div.date.c {    
     letter-spacing: 20;
 }
+
+div.col {
+    display: flex;
+    text-wrap: wrap;
+}
+
 div.coop {
     display: flex;
     flex-wrap: wrap;
@@ -119,8 +125,6 @@ div.coop {
     text-align: justify;
     text-align-last: justify;
    font-size: 200%;
-   margin-top: 0;
-   margin-left: -30;
    font-family: 'weirdfont';
 }
 
@@ -148,8 +152,6 @@ div.hatch {
     text-align: justify;
     text-align-last: justify;
     font-size: 200%;
-    margin-top: -335;
-    margin-left: 300;
     font-family: 'weirdfont'
 }
 
@@ -177,8 +179,6 @@ div.fowl {
     text-align: justify;
     text-align-last: justify;
     font-size: 200%;
-    margin-top: -316;
-    margin-left: 610;
     font-family: 'weirdfont';
     letter-spacing: 3;
 }
@@ -207,8 +207,7 @@ div.scroll-container2 {
     overflow: hidden;
     width: 1200px;
     margin: 0rem 0rem;
-    height: 325px;
-    margin-top: -325;
+
   }
 
 div.log {
