@@ -1,8 +1,51 @@
-body {
+
+.bg_image_2 {
     background-color: blue;
-    background-image:url('colourchick2.PNG');
-    background-repeat: no-repeat;
+    background-image:url('colourchick2.jpg');
+    background-repeat: repeat;
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
 }
+
+div.item.random {
+    transition:0.2s;
+    width: 14%;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+div.col {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    margin-top: -1350px;
+} 
+
+div.item.random.a 
+{ opacity: 0%;}
+
+div.item.random.b
+{opacity: 100%;}
+
+div.item.random.c
+{opacity: 0%;}
+
+div.item.random.x
+{opacity: 100%;
+filter: saturate(200%);}
+
+
+div.item.random.y
+{rotate: 30deg;}
+
+div.item.random.z
+{rotate: -30deg}
+
+div.item.random.one
+{-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);}
+
