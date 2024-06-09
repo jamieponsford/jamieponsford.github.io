@@ -44,6 +44,10 @@ div.mono {
     font-family: 'Courier New', Courier, monospace;
 }
 
+div.italic {
+    font-style: italic;
+}
+
 /* colours */
 
 div.textblue {
@@ -56,6 +60,10 @@ div.textred {
 
 div.bgpink {
     background-color: pink;
+}
+
+div.textvblue {
+    color: blueviolet;
 }
 
 /* layout */
@@ -98,4 +106,27 @@ div.width25 {
 
 div.width20 {
     width:20%
+}
+
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.footnote {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.centrealign {
+    text-align: center;
+}
+
+div.overlay {
+    position: fixed;
+    width: 500px;
+    top:400px;
+    left: 50px;
 }
